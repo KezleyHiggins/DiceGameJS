@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
+@font-face {
+  font-family: kenneySpace;
+  src: url(Kenney\ Space.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +17,7 @@ html {
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'kenneySpace', sans-serif;
   font-weight: 400;
   height: 100vh;
   color: #333;
@@ -48,7 +53,7 @@ main {
 /* ELEMENTS */
 .name {
   position: relative;
-  font-size: 4rem;
+  font-size: 3rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   word-spacing: 2px;
@@ -57,7 +62,7 @@ main {
 }
 
 .score {
-  font-size: 8rem;
+  font-size: 4rem;
   font-weight: 300;
   color: #660d75;
   margin-bottom: auto;
@@ -94,7 +99,7 @@ main {
 .current-label {
   text-transform: uppercase;
   margin-bottom: 1rem;
-  font-size: 1.7rem;
+  font-size: 1rem;
   color: #ddd;
 }
 
@@ -112,7 +117,7 @@ main {
   border-color: #753682;
   border-style: groove;
   font-family: inherit;
-  font-size: 1.8rem;
+  font-size: 1rem;
   text-transform: uppercase;
   cursor: pointer;
   font-weight: 400;
